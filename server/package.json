@@ -1,0 +1,16 @@
+{
+  "name": "lifeline-server",
+  "version": "1.0.0",
+  "description": "LifeLine Triage Backend - Pre-consultation rural triage with deterministic safety rails and constrained LLM classification",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "test": "node --test tests/*.test.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  }
+}
